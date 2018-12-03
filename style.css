@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Molle:400i');
+
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1f263b;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- type.js ---- */
+#lis {
+  color: #f0f0f0;
+  font-family: 'Molle', cursive;
+  font-size: 5em
+}
+
+.cc {
+  color: #fed03d;
+}
+
+.typeAnimationWrapper {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  color: #ffffff
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.typed-cursor {
+  display: none;
+}
+
+/* ---- Links ---- */
+.buttonlinks {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  z-index: 2;
+}
